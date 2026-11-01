@@ -1,0 +1,30 @@
+{
+  "name": "@xgyadav/devkit-cli",
+  "version": "0.1.0",
+  "description": "A Swiss-army CLI toolkit for everyday developer tasks: JSON/YAML/CSV transforms, JWT decoding, hashing, UUID/ULID, cron explaining, semver bumping and more.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "devkit": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint src tests"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "json",
+    "jwt",
+    "uuid",
+    "devkit"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
