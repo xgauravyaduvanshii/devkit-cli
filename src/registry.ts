@@ -5,6 +5,7 @@ import { cmd as yamlToJsonCmd } from "./commands/yaml-to-json.js";
 import { cmd as jsonToYamlCmd } from "./commands/json-to-yaml.js";
 import { cmd as csvToJsonCmd } from "./commands/csv-to-json.js";
 import { cmd as jwtDecodeCmd } from "./commands/jwt-decode.js";
+import { cmd as uuidCmd } from "./commands/uuid.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -13,6 +14,7 @@ const ALL: Command[] = [
   jsonToYamlCmd,
   csvToJsonCmd,
   jwtDecodeCmd,
+  uuidCmd,
 ];
 
 export function listCommands(): Command[] {
