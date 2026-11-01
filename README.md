@@ -49,3 +49,4 @@ MIT
 - `case-conv` — Convert between camelCase, snake_case, kebab-case, PascalCase ([docs](docs/commands/case-conv.md))
 - `b64` — Base64 encode/decode (also base64url) ([docs](docs/commands/b64.md))
 - `hash` — Hash text or stdin with sha256/sha1/md5 ([docs](docs/commands/hash.md))
+- `passgen` — Generate random passwords/passphrases ([docs](docs/commands/passgen.md))
