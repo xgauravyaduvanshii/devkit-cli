@@ -57,3 +57,4 @@ MIT
 - `urlinfo` — Break a URL into its components ([docs](docs/commands/urlinfo.md))
 - `colorconv` — Convert hex colors to RGB and back ([docs](docs/commands/colorconv.md))
 - `sizeunits` — Convert byte counts to human units (KiB/MiB/GiB) ([docs](docs/commands/sizeunits.md))
+- `re-escape` — Escape a string for safe use inside a RegExp ([docs](docs/commands/re-escape.md))
