@@ -56,3 +56,4 @@ MIT
 - `qstr` — Parse a URL query string into sorted JSON ([docs](docs/commands/qstr.md))
 - `urlinfo` — Break a URL into its components ([docs](docs/commands/urlinfo.md))
 - `colorconv` — Convert hex colors to RGB and back ([docs](docs/commands/colorconv.md))
+- `sizeunits` — Convert byte counts to human units (KiB/MiB/GiB) ([docs](docs/commands/sizeunits.md))
