@@ -37,3 +37,4 @@ unit tests, so you can also import them as a library.
 ## License
 
 MIT
+- `json-fmt` — Pretty-print or minify JSON ([docs](docs/commands/json-fmt.md))
