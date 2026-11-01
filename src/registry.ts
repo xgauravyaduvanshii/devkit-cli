@@ -18,6 +18,7 @@ import { cmd as semverBumpCmd } from "./commands/semver-bump.js";
 import { cmd as qstrCmd } from "./commands/qstr.js";
 import { cmd as urlinfoCmd } from "./commands/urlinfo.js";
 import { cmd as colorconvCmd } from "./commands/colorconv.js";
+import { cmd as sizeunitsCmd } from "./commands/sizeunits.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -39,6 +40,7 @@ const ALL: Command[] = [
   qstrCmd,
   urlinfoCmd,
   colorconvCmd,
+  sizeunitsCmd,
 ];
 
 export function listCommands(): Command[] {
