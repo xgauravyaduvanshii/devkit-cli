@@ -14,3 +14,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`case-conv`](commands/case-conv.md) — Convert between camelCase, snake_case, kebab-case, PascalCase
 - [`b64`](commands/b64.md) — Base64 encode/decode (also base64url)
 - [`hash`](commands/hash.md) — Hash text or stdin with sha256/sha1/md5
+- [`passgen`](commands/passgen.md) — Generate random passwords/passphrases
