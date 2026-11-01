@@ -6,3 +6,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`json-keys`](commands/json-keys.md) — List all key paths in a JSON document
 - [`yaml-to-json`](commands/yaml-to-json.md) — Convert simple flat YAML to JSON
 - [`json-to-yaml`](commands/json-to-yaml.md) — Emit flat JSON objects as YAML
+- [`csv-to-json`](commands/csv-to-json.md) — Convert CSV (with header) to a JSON array
