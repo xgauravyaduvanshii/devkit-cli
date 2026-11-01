@@ -11,6 +11,7 @@ import { cmd as slugifyCmd } from "./commands/slugify.js";
 import { cmd as caseConvCmd } from "./commands/case-conv.js";
 import { cmd as b64Cmd } from "./commands/b64.js";
 import { cmd as hashCmd } from "./commands/hash.js";
+import { cmd as passgenCmd } from "./commands/passgen.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -25,6 +26,7 @@ const ALL: Command[] = [
   caseConvCmd,
   b64Cmd,
   hashCmd,
+  passgenCmd,
 ];
 
 export function listCommands(): Command[] {
