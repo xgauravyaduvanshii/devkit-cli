@@ -61,3 +61,4 @@ MIT
 - `diff-lines` — Line diff between two texts separated by :: ([docs](docs/commands/diff-lines.md))
 - `env-lint` — Lint .env content: duplicates, spacing, empty values ([docs](docs/commands/env-lint.md))
 - `mime` — Look up the Content-Type for a file extension ([docs](docs/commands/mime.md))
+- `ansi-strip` — Remove ANSI escape sequences from text ([docs](docs/commands/ansi-strip.md))
