@@ -55,3 +55,4 @@ MIT
 - `semver-bump` — Bump a semantic version (major/minor/patch) ([docs](docs/commands/semver-bump.md))
 - `qstr` — Parse a URL query string into sorted JSON ([docs](docs/commands/qstr.md))
 - `urlinfo` — Break a URL into its components ([docs](docs/commands/urlinfo.md))
+- `colorconv` — Convert hex colors to RGB and back ([docs](docs/commands/colorconv.md))
