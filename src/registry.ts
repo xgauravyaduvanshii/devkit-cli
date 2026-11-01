@@ -1,10 +1,12 @@
 import type { Command } from "./types.js";
 import { cmd as jsonFmtCmd } from "./commands/json-fmt.js";
 import { cmd as jsonKeysCmd } from "./commands/json-keys.js";
+import { cmd as yamlToJsonCmd } from "./commands/yaml-to-json.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
   jsonKeysCmd,
+  yamlToJsonCmd,
 ];
 
 export function listCommands(): Command[] {
