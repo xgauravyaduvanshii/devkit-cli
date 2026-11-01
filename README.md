@@ -50,3 +50,4 @@ MIT
 - `b64` — Base64 encode/decode (also base64url) ([docs](docs/commands/b64.md))
 - `hash` — Hash text or stdin with sha256/sha1/md5 ([docs](docs/commands/hash.md))
 - `passgen` — Generate random passwords/passphrases ([docs](docs/commands/passgen.md))
+- `dateconv` — Convert between unix timestamps and ISO 8601 ([docs](docs/commands/dateconv.md))
