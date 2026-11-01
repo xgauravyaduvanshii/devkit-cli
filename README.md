@@ -62,3 +62,4 @@ MIT
 - `env-lint` — Lint .env content: duplicates, spacing, empty values ([docs](docs/commands/env-lint.md))
 - `mime` — Look up the Content-Type for a file extension ([docs](docs/commands/mime.md))
 - `ansi-strip` — Remove ANSI escape sequences from text ([docs](docs/commands/ansi-strip.md))
+- `checksum` — SHA-256 checksum plus byte count for piped content ([docs](docs/commands/checksum.md))
