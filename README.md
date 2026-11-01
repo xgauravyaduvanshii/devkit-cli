@@ -39,3 +39,4 @@ unit tests, so you can also import them as a library.
 MIT
 - `json-fmt` — Pretty-print or minify JSON ([docs](docs/commands/json-fmt.md))
 - `json-keys` — List all key paths in a JSON document ([docs](docs/commands/json-keys.md))
+- `yaml-to-json` — Convert simple flat YAML to JSON ([docs](docs/commands/yaml-to-json.md))
