@@ -17,6 +17,7 @@ import { cmd as cronExplainCmd } from "./commands/cron-explain.js";
 import { cmd as semverBumpCmd } from "./commands/semver-bump.js";
 import { cmd as qstrCmd } from "./commands/qstr.js";
 import { cmd as urlinfoCmd } from "./commands/urlinfo.js";
+import { cmd as colorconvCmd } from "./commands/colorconv.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -37,6 +38,7 @@ const ALL: Command[] = [
   semverBumpCmd,
   qstrCmd,
   urlinfoCmd,
+  colorconvCmd,
 ];
 
 export function listCommands(): Command[] {
