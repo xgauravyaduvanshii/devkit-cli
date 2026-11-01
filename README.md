@@ -37,6 +37,16 @@ unit tests, so you can also import them as a library.
 ## License
 
 MIT
+
+## Command highlights
+
+- Transforms: json-fmt, json-keys, yaml/json/csv conversions
+- Identity & security: uuid, ulid, jwt-decode, hash, passgen, checksum
+- Web & text: urlinfo, qstr, colorconv, mime, ansi-strip, re-escape, slugify, case-conv
+- Dev life: dateconv, cron-explain, semver-bump, env-lint, diff-lines, sizeunits
+
+## All commands
+
 - `json-fmt` — Pretty-print or minify JSON ([docs](docs/commands/json-fmt.md))
 - `json-keys` — List all key paths in a JSON document ([docs](docs/commands/json-keys.md))
 - `yaml-to-json` — Convert simple flat YAML to JSON ([docs](docs/commands/yaml-to-json.md))
