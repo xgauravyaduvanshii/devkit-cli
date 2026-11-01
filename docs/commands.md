@@ -24,3 +24,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`sizeunits`](commands/sizeunits.md) — Convert byte counts to human units (KiB/MiB/GiB)
 - [`re-escape`](commands/re-escape.md) — Escape a string for safe use inside a RegExp
 - [`diff-lines`](commands/diff-lines.md) — Line diff between two texts separated by ::
+- [`env-lint`](commands/env-lint.md) — Lint .env content: duplicates, spacing, empty values
