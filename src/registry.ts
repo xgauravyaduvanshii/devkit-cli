@@ -23,6 +23,7 @@ import { cmd as reEscapeCmd } from "./commands/re-escape.js";
 import { cmd as diffLinesCmd } from "./commands/diff-lines.js";
 import { cmd as envLintCmd } from "./commands/env-lint.js";
 import { cmd as mimeCmd } from "./commands/mime.js";
+import { cmd as ansiStripCmd } from "./commands/ansi-strip.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -49,6 +50,7 @@ const ALL: Command[] = [
   diffLinesCmd,
   envLintCmd,
   mimeCmd,
+  ansiStripCmd,
 ];
 
 export function listCommands(): Command[] {
