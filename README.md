@@ -46,3 +46,4 @@ MIT
 - `uuid` — Generate RFC 4122 v4 UUIDs ([docs](docs/commands/uuid.md))
 - `ulid` — Generate a ULID (Crockford base32, sortable) ([docs](docs/commands/ulid.md))
 - `slugify` — Turn any text into a URL-safe slug ([docs](docs/commands/slugify.md))
+- `case-conv` — Convert between camelCase, snake_case, kebab-case, PascalCase ([docs](docs/commands/case-conv.md))
