@@ -14,6 +14,7 @@ import { cmd as hashCmd } from "./commands/hash.js";
 import { cmd as passgenCmd } from "./commands/passgen.js";
 import { cmd as dateconvCmd } from "./commands/dateconv.js";
 import { cmd as cronExplainCmd } from "./commands/cron-explain.js";
+import { cmd as semverBumpCmd } from "./commands/semver-bump.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -31,6 +32,7 @@ const ALL: Command[] = [
   passgenCmd,
   dateconvCmd,
   cronExplainCmd,
+  semverBumpCmd,
 ];
 
 export function listCommands(): Command[] {
