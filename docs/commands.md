@@ -11,3 +11,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`uuid`](commands/uuid.md) — Generate RFC 4122 v4 UUIDs
 - [`ulid`](commands/ulid.md) — Generate a ULID (Crockford base32, sortable)
 - [`slugify`](commands/slugify.md) — Turn any text into a URL-safe slug
+- [`case-conv`](commands/case-conv.md) — Convert between camelCase, snake_case, kebab-case, PascalCase
