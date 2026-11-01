@@ -26,3 +26,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`diff-lines`](commands/diff-lines.md) — Line diff between two texts separated by ::
 - [`env-lint`](commands/env-lint.md) — Lint .env content: duplicates, spacing, empty values
 - [`mime`](commands/mime.md) — Look up the Content-Type for a file extension
+- [`ansi-strip`](commands/ansi-strip.md) — Remove ANSI escape sequences from text
