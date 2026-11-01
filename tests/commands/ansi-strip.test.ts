@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/ansi-strip.js";
+import { cmd } from "../../src/commands/ansi-strip.js";
 
 describe("ansi-strip", () => {
   it("smoke: exits 0 and produces expected output", () => {

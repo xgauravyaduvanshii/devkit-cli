@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/csv-to-json.js";
+import { cmd } from "../../src/commands/csv-to-json.js";
 
 describe("csv-to-json", () => {
   it("smoke: exits 0 and produces expected output", () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/mime.js";
+import { cmd } from "../../src/commands/mime.js";
 
 describe("mime", () => {
   it("smoke: exits 0 and produces expected output", () => {

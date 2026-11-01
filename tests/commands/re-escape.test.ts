@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/re-escape.js";
+import { cmd } from "../../src/commands/re-escape.js";
 
 describe("re-escape", () => {
   it("smoke: exits 0 and produces expected output", () => {

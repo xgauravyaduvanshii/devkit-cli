@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/json-keys.js";
+import { cmd } from "../../src/commands/json-keys.js";
 
 describe("json-keys", () => {
   it("smoke: exits 0 and produces expected output", () => {

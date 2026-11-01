@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/ulid.js";
+import { cmd } from "../../src/commands/ulid.js";
 
 describe("ulid", () => {
   it("smoke: exits 0 and produces expected output", () => {

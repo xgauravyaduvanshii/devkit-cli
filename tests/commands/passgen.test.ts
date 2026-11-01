@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/passgen.js";
+import { cmd } from "../../src/commands/passgen.js";
 
 describe("passgen", () => {
   it("smoke: exits 0 and produces expected output", () => {

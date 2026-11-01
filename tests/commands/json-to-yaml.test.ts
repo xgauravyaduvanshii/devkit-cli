@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/json-to-yaml.js";
+import { cmd } from "../../src/commands/json-to-yaml.js";
 
 describe("json-to-yaml", () => {
   it("smoke: exits 0 and produces expected output", () => {

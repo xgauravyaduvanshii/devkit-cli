@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/sizeunits.js";
+import { cmd } from "../../src/commands/sizeunits.js";
 
 describe("sizeunits", () => {
   it("smoke: exits 0 and produces expected output", () => {

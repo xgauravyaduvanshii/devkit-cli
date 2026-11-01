@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/diff-lines.js";
+import { cmd } from "../../src/commands/diff-lines.js";
 
 describe("diff-lines", () => {
   it("smoke: exits 0 and produces expected output", () => {

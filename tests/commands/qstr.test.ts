@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/qstr.js";
+import { cmd } from "../../src/commands/qstr.js";
 
 describe("qstr", () => {
   it("smoke: exits 0 and produces expected output", () => {

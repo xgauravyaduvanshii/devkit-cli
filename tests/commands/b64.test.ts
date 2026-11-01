@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { cmd } from "../src/commands/b64.js";
+import { cmd } from "../../src/commands/b64.js";
 
 describe("b64", () => {
   it("smoke: exits 0 and produces expected output", () => {
