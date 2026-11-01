@@ -54,3 +54,4 @@ MIT
 - `cron-explain` — Explain a 5-field cron expression in plain English ([docs](docs/commands/cron-explain.md))
 - `semver-bump` — Bump a semantic version (major/minor/patch) ([docs](docs/commands/semver-bump.md))
 - `qstr` — Parse a URL query string into sorted JSON ([docs](docs/commands/qstr.md))
+- `urlinfo` — Break a URL into its components ([docs](docs/commands/urlinfo.md))
