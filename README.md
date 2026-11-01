@@ -41,3 +41,4 @@ MIT
 - `json-keys` — List all key paths in a JSON document ([docs](docs/commands/json-keys.md))
 - `yaml-to-json` — Convert simple flat YAML to JSON ([docs](docs/commands/yaml-to-json.md))
 - `json-to-yaml` — Emit flat JSON objects as YAML ([docs](docs/commands/json-to-yaml.md))
+- `csv-to-json` — Convert CSV (with header) to a JSON array ([docs](docs/commands/csv-to-json.md))
