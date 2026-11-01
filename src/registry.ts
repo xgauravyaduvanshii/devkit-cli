@@ -19,6 +19,7 @@ import { cmd as qstrCmd } from "./commands/qstr.js";
 import { cmd as urlinfoCmd } from "./commands/urlinfo.js";
 import { cmd as colorconvCmd } from "./commands/colorconv.js";
 import { cmd as sizeunitsCmd } from "./commands/sizeunits.js";
+import { cmd as reEscapeCmd } from "./commands/re-escape.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -41,6 +42,7 @@ const ALL: Command[] = [
   urlinfoCmd,
   colorconvCmd,
   sizeunitsCmd,
+  reEscapeCmd,
 ];
 
 export function listCommands(): Command[] {
