@@ -7,6 +7,7 @@ import { cmd as csvToJsonCmd } from "./commands/csv-to-json.js";
 import { cmd as jwtDecodeCmd } from "./commands/jwt-decode.js";
 import { cmd as uuidCmd } from "./commands/uuid.js";
 import { cmd as ulidCmd } from "./commands/ulid.js";
+import { cmd as slugifyCmd } from "./commands/slugify.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -17,6 +18,7 @@ const ALL: Command[] = [
   jwtDecodeCmd,
   uuidCmd,
   ulidCmd,
+  slugifyCmd,
 ];
 
 export function listCommands(): Command[] {
