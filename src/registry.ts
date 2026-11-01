@@ -22,6 +22,7 @@ import { cmd as sizeunitsCmd } from "./commands/sizeunits.js";
 import { cmd as reEscapeCmd } from "./commands/re-escape.js";
 import { cmd as diffLinesCmd } from "./commands/diff-lines.js";
 import { cmd as envLintCmd } from "./commands/env-lint.js";
+import { cmd as mimeCmd } from "./commands/mime.js";
 
 const ALL: Command[] = [
   jsonFmtCmd,
@@ -47,6 +48,7 @@ const ALL: Command[] = [
   reEscapeCmd,
   diffLinesCmd,
   envLintCmd,
+  mimeCmd,
 ];
 
 export function listCommands(): Command[] {
