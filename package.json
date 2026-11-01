@@ -1,6 +1,6 @@
 {
   "name": "@xgyadav/devkit-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Swiss-army CLI toolkit for everyday developer tasks: JSON/YAML/CSV transforms, JWT decoding, hashing, UUID/ULID, cron explaining, semver bumping and more.",
   "license": "MIT",
   "type": "module",
