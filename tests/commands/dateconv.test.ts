@@ -11,4 +11,14 @@ describe("dateconv", () => {
     expect(code).toBe(0);
     expect(out).toContain("2024-10-27");
   });
+
+  it("prints a plain UTC line with --utc", () => {
+    const logs: string[] = [];
+    const spy = vi.spyOn(console, "log").mockImplementation((m: unknown) => { logs.push(String(m)); });
+    const code = cmd.run({ args: ["1730000000", "--utc"], stdin: "" });
+    spy.mockRestore();
+    const out = logs.join("\n");
+    expect(code).toBe(0);
+    expect(out).toContain("utc:   2024-10-27 03:33:20 UTC");
+  });
 });
