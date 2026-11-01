@@ -9,3 +9,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`csv-to-json`](commands/csv-to-json.md) — Convert CSV (with header) to a JSON array
 - [`jwt-decode`](commands/jwt-decode.md) — Decode a JWT header and payload (no verification)
 - [`uuid`](commands/uuid.md) — Generate RFC 4122 v4 UUIDs
+- [`ulid`](commands/ulid.md) — Generate a ULID (Crockford base32, sortable)
