@@ -10,3 +10,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`jwt-decode`](commands/jwt-decode.md) — Decode a JWT header and payload (no verification)
 - [`uuid`](commands/uuid.md) — Generate RFC 4122 v4 UUIDs
 - [`ulid`](commands/ulid.md) — Generate a ULID (Crockford base32, sortable)
+- [`slugify`](commands/slugify.md) — Turn any text into a URL-safe slug
