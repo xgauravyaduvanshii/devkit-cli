@@ -21,3 +21,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`qstr`](commands/qstr.md) — Parse a URL query string into sorted JSON
 - [`urlinfo`](commands/urlinfo.md) — Break a URL into its components
 - [`colorconv`](commands/colorconv.md) — Convert hex colors to RGB and back
+- [`sizeunits`](commands/sizeunits.md) — Convert byte counts to human units (KiB/MiB/GiB)
