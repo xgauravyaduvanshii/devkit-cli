@@ -17,3 +17,4 @@ Every command ships with a smoke test in tests/commands and a page in docs/comma
 - [`passgen`](commands/passgen.md) — Generate random passwords/passphrases
 - [`dateconv`](commands/dateconv.md) — Convert between unix timestamps and ISO 8601
 - [`cron-explain`](commands/cron-explain.md) — Explain a 5-field cron expression in plain English
+- [`semver-bump`](commands/semver-bump.md) — Bump a semantic version (major/minor/patch)
